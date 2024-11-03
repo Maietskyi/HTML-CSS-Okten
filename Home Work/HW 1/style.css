@@ -1,0 +1,50 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1612916628677-475f676a6adf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmF0bWFufGVufDB8fDB8fHww");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a {
+    color: darkgoldenrod;
+}
+
+/*h1 {*/
+/*    text-align: center;*/
+/*    background-color: aliceblue;*/
+/*    !*width: 200px;*!*/
+/*}*/
+
+/*h3 {*/
+/*    text-align: center;*/
+/*    background-color: aliceblue;*/
+/*    width: 120px;*/
+/*}*/
+
+/*p {*/
+/*    text-align: center;*/
+/*    background-color: aliceblue;*/
+/*    width: 200px;*/
+/*}*/
+
+img {
+
+    width: 200px;
+    height: 250px;
+}
+
+/*span {*/
+/*    background-color: cornflowerblue;*/
+/*    padding: 4px 8px;*/
+/*}*/
+
+div {
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: darkgoldenrod;
+}

@@ -1,0 +1,52 @@
+body {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------------Volkswagen-------------------*/
+.wheel {
+    animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+
+    50% {
+        transform: scale(1.1) rotate(180deg);
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+/*-------------------Preloader--------------------*/
+.circle {
+    width: 80px;
+    height: 80px;
+    border: 8px solid;
+    border-top-color: green;
+    border-right-color: yellow;
+    border-bottom-color: blue;
+    border-left-color: red;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    animation: rotates 1.5s linear infinite;
+}
+
+@keyframes rotates {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*--------------header----------------*/
+header {
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+
+}
+
+header div {
+    text-align: center;
+}
+
+header div h3 {
+    font-size: 16px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    color: grey;
+    font-size: 20px;
+}
+
+/*-------------------Main------------------*/
+.active-link {
+    color: #9dc39d;
+}
+
+main {
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 50px;
+}
+
+main p {
+    font-size: 20px;
+    color: #9dc39d;
+}
+
+main h1 {
+    font-size: 100px;
+    letter-spacing: 30px;
+}
+
+main button {
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    transition: 2s;
+}
+
+main button:hover {
+    transform: scale(1.1);
+    transition: 2s;
+    color: #9dc39d;
+}
+
+.home {
+    background-image: url("https://media.istockphoto.com/id/1160438555/uk/%D1%84%D0%BE%D1%82%D0%BE/%D1%82%D1%83%D0%BC%D0%B0%D0%BD-%D1%96-%D1%85%D0%BC%D0%B0%D1%80%D0%B8-%D0%BD%D0%B0-%D0%B3%D0%BE%D1%80%D1%96.jpg?s=612x612&w=0&k=20&c=a-HtUF8lCWbLIqJgsy5IVXT7cXmcCHCC5cbZzsHQ-bQ=");
+}
+
+.contact {
+    background-image: url("https://media.istockphoto.com/id/170100543/uk/%D1%84%D0%BE%D1%82%D0%BE/%D1%82%D0%B5%D0%BC%D0%BD%D0%B0-%D1%8F%D0%BB%D0%B8%D0%BD%D0%B0-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%B8%D0%B9-%D1%81%D0%B8%D0%BB%D1%83%D0%B5%D1%82-%D0%BE%D1%82%D0%BE%D1%87%D0%B5%D0%BD%D0%B8%D0%B9-%D1%82%D1%83%D0%BC%D0%B0%D0%BD%D0%BE%D0%BC-%D0%BD%D0%B0-%D0%B1%D1%96%D0%BB%D0%BE%D0%BC%D1%83.jpg?s=612x612&w=0&k=20&c=D3CXyp_jJex7eOzn0Op8VAXq4yZRxKlK6tzvaquYnVY=");
+}
+
+main h3 {
+    font-size: 40px;
+    letter-spacing: 16px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.contact {
+    font-family: "Orbitron", sans-serif;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+}
+
+.contact p {
+    padding: 24px;
+    color: black;
+}
+
+.service {
+    background-image: url('https://media.istockphoto.com/id/1737425223/photo/foggy-mountain.webp?a=1&b=1&s=612x612&w=0&k=20&c=0bikyBjmbMyPqLSG1a-jV7fw7tADGc6zT7DcJREqGZU=');
+}
+
+.blog {
+    background-image: url("https://media.istockphoto.com/id/1792807695/uk/%D1%84%D0%BE%D1%82%D0%BE/%D0%B2%D0%B8%D0%B4-%D0%B7-%D0%B2%D0%B8%D1%81%D0%BE%D1%82%D0%B8-%D0%BF%D1%82%D0%B0%D1%88%D0%B8%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D0%BB%D1%8C%D0%BE%D1%82%D1%83-%D0%BD%D0%B0%D0%B4-%D1%88%D0%B2%D0%B0%D1%80%D1%86%D0%B2%D0%B0%D0%BB%D1%8C%D0%B4%D0%BE%D0%BC-%D1%83-%D0%BD%D1%96%D0%BC%D0%B5%D1%87%D1%87%D0%B8%D0%BD%D1%96.jpg?s=612x612&w=0&k=20&c=P_ymtZiPzHOU41Ex9fGFoyT3bfEWAKIOSWX3-FdE5TQ=");
+}
+
+.about {
+    background-image: url("https://media.istockphoto.com/id/1342007894/uk/%D1%84%D0%BE%D1%82%D0%BE/%D1%80%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9-%D1%82%D1%83%D0%BC%D0%B0%D0%BD-%D0%BD%D0%B0%D0%B4-%D0%BF%D1%80%D0%B5%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%B8%D0%BC-%D0%BE%D0%B7%D0%B5%D1%80%D0%BE%D0%BC-%D0%B2-%D0%BE%D1%82%D0%BE%D1%87%D0%B5%D0%BD%D0%BD%D1%96-%D1%81%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BB%D1%96%D1%81%D1%83-%D1%84%D0%BE%D1%82%D0%BE.jpg?s=612x612&w=0&k=20&c=DSHKezvGqRIWPL5q3V74rpz4E6ZptPtiv30733lmT8I=");
+}
+
+
+.about li {
+    padding: 8px;
+}
+
+.about .list {
+    padding: 16px;
+    background-color: #456845;
+    color: white;
+}
+
+.about .list a {
+    color: lightgreen;
+}
+
+.location {
+    background-image: url("https://media.istockphoto.com/id/1257396703/uk/%D1%84%D0%BE%D1%82%D0%BE/%D0%B2%D0%B8%D0%B4-%D0%B7-%D0%BF%D0%BE%D0%B2%D1%96%D1%82%D1%80%D1%8F-%D0%BD%D0%B0-%D0%B7%D0%B0%D1%85%D1%96%D0%B4-%D1%81%D0%BE%D0%BD%D1%86%D1%8F.jpg?s=612x612&w=0&k=20&c=2JGNERfyFcyd7R78GJffHApP2eqO54OWBRM14jnHE5s=");
+}
+
+.location {
+    gap: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 40px;
+
+}
+
+main h3 {
+    font-size: 80px;
+    letter-spacing: 24px;
+}
+
+main p {
+    color: white;
+}
+
+.map {
+    flex-shrink: 0;
+    height: 40vh;
+    width: 30vw;
+    margin: 0 -24px;
+    border-radius: 16px;
+    border: none;
+}

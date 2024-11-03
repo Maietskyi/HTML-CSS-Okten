@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 4.5% 40% 33.5% 10% 12%;
+    grid-template-areas:
+    "header header"
+    "main top-section"
+    "main bottom-section"
+    "contact contact"
+    "footer footer";
+}
+
+header {
+    grid-area: header;
+    background: #D9D9D9;
+}
+
+main {
+    grid-area: main;
+    background: #A4A4A4;
+}
+
+.top-section {
+    grid-area: top-section;
+    background: #7F7A7A;
+}
+
+.bottom-section {
+    grid-area: bottom-section;
+    background: #615050;
+}
+
+.contact {
+    grid-area: contact;
+    background: #D9D9D9;
+}
+
+footer {
+    grid-area: footer;
+    background: #AFA9A9;
+}

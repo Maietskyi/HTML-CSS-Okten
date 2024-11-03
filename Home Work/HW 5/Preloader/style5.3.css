@@ -1,0 +1,65 @@
+/*--------------------Auto & road------------------*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roads {
+    height: 860px;
+    width: 1400px;
+    background-size: cover;
+    background-image: url('img/road.jpg');
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.auto img {
+    width: 440px;
+    height: 200px;
+    animation: going 5s linear infinite alternate;
+}
+
+@keyframes going {
+    0% {
+        transform: translate(0, 0);
+    }
+    10% {
+        transform: translate(96px, 4px);
+    }
+    20% {
+        transform: translate(192px, 0);
+    }
+    30% {
+        transform: translate(288px, 4px);
+    }
+    40% {
+        transform: translate(384px, 0);
+    }
+    50% {
+        transform: translate(480px, -4px);
+    }
+    60% {
+        transform: translate(576px, 0);
+    }
+    70% {
+        transform: translate(672px, 4px);
+    }
+    80% {
+        transform: translate(768px, 0);
+    }
+    90% {
+        transform: translate(864px, 4px);
+    }
+    100% {
+        transform: translate(960px, 0);
+    }
+}
+
